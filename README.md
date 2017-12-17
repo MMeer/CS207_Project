@@ -16,6 +16,8 @@ F. Contact Info:
 
 G. Bug List:
 
+H. Troubleshooting:
+
 
 
 This Github repository was created for Computer Science 207. In this class we have to recreate an existing Arduino project and maintain a Github repository with all related files.
