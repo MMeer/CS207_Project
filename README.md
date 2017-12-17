@@ -10,6 +10,16 @@ For our project we decided to combine two projects into one. The projects are:
 
 The folders Default PHP Code and Default Arduino Code contains code from the above projects. All credit goes to the respective authors from those projects.
 
+## Requirements and Materials
+### Dependencies
+- PHPoC Library: https://github.com/phpoc/arduino
+### Bill of Materials
+- Adrduino UNO
+- PHPoC Wi-Fi Shield
+- Four Buttons
+- Four 10K Ohm resistors
+- One Potentiometer
+- Two Half Breadboards
 
 ## Build Instructions
 
