@@ -1,6 +1,25 @@
 # CS207_Project
 ## An Arduino Mini Game Console
 
+
+A. Config Instruction: 
+
+B. Imstallation Instruction: 
+
+C. Manifest / List of Files:
+
+D. Copyright Notice:
+
+E. Credits/Acknowledgements:
+
+F. Contact Info:
+
+G. Bug List:
+
+H. Troubleshooting:
+
+
+
 This Github repository was created for Computer Science 207. In this class we have to recreate an existing Arduino project and maintain a Github repository with all related files.
 
 For our project we decided to combine two projects into one. The projects are: 
