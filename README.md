@@ -26,3 +26,5 @@ For our project we decided to combine two projects into one. The projects are:
 
 - https://www.hackster.io/Homer/arduino-web-based-car-race-brick-game-cb1b30
 - https://www.hackster.io/khanhhs/arduino-web-based-two-player-game-584daa
+
+The folders Default PHP Code and Default Arduino Code contains code from the above projects. All credit goes to the repective authors from those projects.
