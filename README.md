@@ -11,7 +11,7 @@ For our project we decided to combine two projects into one. The projects are:
 By combing these two projects our hope was to create a sort of game console where the user will be able to switch between games using a potentiometer. In order to accomplish this we first had to convert the racing game to use buttons instead of a rotary angle sensor. Afterwards, we had to combine the seperate Arduino codes into one file. This allows the user to select which game to play by choosing a mode using the potentiometer. The mode determines what set section of Arduino code is run. See Mode Selection folder for complete code for this feature.
 
 ### Important:
-The folders Default PHP Code and Default Arduino Code contains code from the above projects. All credit goes to the respective authors from those projects. Please see links above for the original projects.
+The folders Original PHP Code and Original Arduino Code contains code from the above projects. All credit goes to the respective authors from those projects. Please see links above for the original projects.
 
 ## Requirements and Materials
 ### Dependencies
