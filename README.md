@@ -13,4 +13,4 @@ The folders Default PHP Code and Default Arduino Code contains code from the abo
 
 ## Build Instructions
 
-[[https://github.com/MMeer/CS207_Project/blob/master/img/Final%20Project%20Sketch_bb.jpg]]
+![alt text](https://github.com/MMeer/CS207_Project/blob/master/img/Final%20Project%20Sketch_bb.jpg)
