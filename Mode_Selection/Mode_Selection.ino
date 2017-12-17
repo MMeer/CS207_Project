@@ -1,14 +1,22 @@
+//header files
 #include <SPI.h>
 #include <Phpoc.h>
 #include <PhpocClient.h>
 #include <PhpocServer.h>
 
+//setting the proxi port to port 80
 PhpocServer server(80);
+
+//vairable declaration
 boolean alreadyConnected = false; 
+//vairable declaration
 const int potPin = A0;
+//vairable declaration
 int pot_value;
+//vairable declaration
 int mode = 0;
 
+// set up function
 void setup() {
     Serial.begin(9600);
     while(!Serial)
@@ -37,6 +45,8 @@ int pre_dir_2 = 0;
 int dir_1 = 0;
 int dir_2 = 0;
 
+
+//loop function
 void loop() {
     // when the client sends the first byte, say hello:
     PhpocClient client = server.available();
