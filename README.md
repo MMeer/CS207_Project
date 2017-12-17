@@ -29,7 +29,7 @@ The folders Original PHP Code and Original Arduino Code contains code from the a
 
 In order to replicate this build, you will need to setup your Arduino and breadboards in a configuration similar to the image below. (Note: You will need to plug your PHPoC Shield into the top of your Arduino UNO before connecting the wires to the respective digital/analog pins)
 
-You will also need to make sure that the PHP files are uploaded to the PHPoC Shield. The PHP files required are: the Default Two-Player game file located in Default PHP Code folder and the modified racing PHP Code located in the Modified PHP Code folder. To upload the files follow this instruction: https://www.phpoc.com/support/manual/phpoc_debugger_manual/contents.php?id=major_upload. In addition the Wi-Fi shield will need to be connecting to the network following the instructions  at: https://www.phpoc.com/support/manual/p4s-347_user_manual/contents.php?id=network_first_setup 
+You will also need to make sure that the PHP files are uploaded to the PHPoC Shield. The PHP files required are: the Default Two-Player game file located in Original PHP Code folder and the modified racing PHP Code located in the Modified PHP Code folder. To upload the files follow this instruction: https://www.phpoc.com/support/manual/phpoc_debugger_manual/contents.php?id=major_upload. In addition the Wi-Fi shield will need to be connecting to the network following the instructions  at: https://www.phpoc.com/support/manual/p4s-347_user_manual/contents.php?id=network_first_setup 
 
 The next step will be uploading the Arduino sketch from the Mode Selection folder. The sketch requires the PHPoC library which can be found at: https://github.com/phpoc/arduino
 
