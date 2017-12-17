@@ -45,7 +45,7 @@ In order to switch between games, turn the potentiometer until the mode you want
 
 ## Credits
 The original and seperate builds for the two games were done by the users below. All of the original Arduino and PHP code was done by them. All credit for that code belongs to those users. Visit the following links to see the original projects and the corresponding user profiles. 
-# Two-Player Game
+### Two-Player Game
 - https://www.hackster.io/khanhhs/arduino-web-based-two-player-game-584daa
-# Racing Game
+### Racing Game
 - https://www.hackster.io/Homer/arduino-web-based-car-race-brick-game-cb1b30
