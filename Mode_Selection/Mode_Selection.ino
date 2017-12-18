@@ -1,6 +1,6 @@
 /*
 Mode Selection code. This arduin code enabled us to switch between the two games using 
-a rotary angle potentiometer.
+a potentiometer .
 */
 
 //header files
