@@ -1,3 +1,6 @@
+/*
+Arduino Code for Racing Game, single player
+*/
 #include <Phpoc.h>
 #include <PhpocClient.h>
 #include <PhpocServer.h>
