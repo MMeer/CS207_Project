@@ -1,4 +1,13 @@
 //header files
+/*
+Mode Selection
+
+
+
+
+
+
+*/
 #include <SPI.h>
 #include <Phpoc.h>
 #include <PhpocClient.h>
