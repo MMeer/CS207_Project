@@ -1,19 +1,15 @@
-//header files
 /*
-Mode Selection
-
-
-
-
-
-
+Mode Selection code. This arduin code enabled us to switch between the two games using 
+a rotary angle potentiometer.
 */
+
+//header files
 #include <SPI.h>
 #include <Phpoc.h>
 #include <PhpocClient.h>
 #include <PhpocServer.h>
 
-//setting the proxi port to port 80
+//setting the proxy port to port 80
 PhpocServer server(80);
 
 //variable declarations
@@ -22,32 +18,37 @@ const int potPin = A0;
 int pot_value;
 int mode = 0;
 
+//set up function
 void setup() {
-    Serial.begin(9600); //Begin Serial
-    while(!Serial)
-        ;
+    //Setting up serial port speed
+    Serial.begin(9600); 
+    while(!Serial);
 
     Phpoc.begin(PF_LOG_SPI | PF_LOG_NET);
-
+    
+    //syncing with the web socket
     server.beginWebSocket("game");
 
+    //prints output
     Serial.print("WebSocket server address : ");
     Serial.println(Phpoc.localIP());
     
-    pinMode(6, INPUT); //Set pins for buttons
+    //function call
+    pinMode(6, INPUT);
     pinMode(7, INPUT); 
     pinMode(8, INPUT); 
     pinMode(9, INPUT); 
     
 }
-
-int value_6 = digitalRead(6); //Read initial values for buttons
+//Read initial values for buttons
+int value_6 = digitalRead(6); 
 int value_7 = digitalRead(7);
 int value_8 = digitalRead(8);
 int value_9 = digitalRead(9);
 int pre_dir_1 = 0;
 int pre_dir_2 = 0;
-int dir_1 = 0; //Assign zero as initial value
+//Assign zero as initial value
+int dir_1 = 0; 
 int dir_2 = 0;
 
 
