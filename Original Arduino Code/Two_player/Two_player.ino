@@ -1,4 +1,9 @@
-//Two-Player
+/*
+Arduino Code for the TwoPlayer Game
+*/
+
+
+//header files
 #include "SPI.h"
 #include "Phpoc.h"
 
