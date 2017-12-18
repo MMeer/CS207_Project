@@ -1,5 +1,4 @@
-//
-//Code Documentation In Progress
+//Racing Game 
 <!DOCTYPE html>
 <html>
 <head>
